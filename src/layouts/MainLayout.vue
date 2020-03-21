@@ -3,12 +3,11 @@
     <q-header elevated>
 
       <q-toolbar>
-        <q-toolbar-title>
-          <q-img
-            src="statics/logo/neonCarnival.png"
-            style="width:75px"
-          ></q-img>
-        </q-toolbar-title>
+
+        <q-img
+          src="statics/logo/neonCarnival.png"
+          style="width:75px"
+        ></q-img>
 
         <div class="q-pa-md gt-sm">
           <q-btn-dropdown
@@ -193,8 +192,11 @@
           </q-btn-dropdown>
 
         </div>
+
+        <q-space />
+
         <q-input
-          color="white"
+          bg-color="green"
           v-model="search"
           filled
           type="search"
@@ -204,6 +206,7 @@
             <q-icon name="search" />
           </template>
         </q-input>
+
         <q-btn
           flat
           dense
@@ -239,10 +242,20 @@
         src="statics/logo/yapay_zeka_gorsel.png"
         style="max-width: 2377px; height: 500px;"
         class="q-pa-lg"
-      ></q-img>
+      >
 
+        <div class="absolute-full text-subtitle1 flex flex-center text-h1 text-bold">
+          Leveraging Leading-Edge Technology for Market Dominance
+        </div>
+
+        <div class="absolute-full text-subtitle2 flex flex-center text-h1 text-bold">
+          Developing state-of-the-art technology to give our clients in the Financial Service Industries <br />unquestioned leadership in both
+          selected and emerging markets
+
+        </div>
+
+      </q-img>
     </div>
-
     <div class="row
         text-h5
         text-bold
@@ -323,6 +336,7 @@
             src="statics/logo/Spectrum-Protect-Plus.png"
             style="max-width: 400px; height: 200px;"
             class="q-pa-lg"
+            link="https://quasar.dev"
           ></q-img>
         </div>
       </div>
@@ -527,7 +541,17 @@
 
     <q-footer elevated>
       <q-toolbar>
-        <q-toolbar-title>Footer</q-toolbar-title>
+        <!-- <q-toolbar-title>Footer</q-toolbar-title> -->
+
+        <div class="row">
+
+          <div class="col">Contact Pratura Incurvo</div>
+          <div class="col">Privacy</div>
+          <div class="col">Terms of use</div>
+          <div class="col">Accessibility</div>
+
+        </div>
+
       </q-toolbar>
     </q-footer>
 
